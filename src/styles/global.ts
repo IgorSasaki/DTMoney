@@ -1,8 +1,8 @@
 // External Modules
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 // Libraries
-import { Colors } from "../libraries/Color";
+import { Colors } from '../libraries/Color'
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -43,4 +43,4 @@ export const GlobalStyle = createGlobalStyle`
     opacity: 0.6;
     cursor: not-allowed;
   }
-`;
+`

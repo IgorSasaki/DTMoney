@@ -1,8 +1,8 @@
 // External Modules
-import React from "react";
+import React from 'react'
 
 // Styling
-import { GlobalStyle } from "./styles/global";
+import { GlobalStyle } from './styles/global'
 
 export const App: React.FC = () => {
   return (
@@ -11,5 +11,5 @@ export const App: React.FC = () => {
 
       <GlobalStyle />
     </div>
-  );
-};
+  )
+}
