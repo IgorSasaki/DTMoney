@@ -2,7 +2,7 @@
 import React from 'react'
 
 // Assets
-import logo from '../../assets/images/logo.svg'
+import logo from '../../assets/logo.svg'
 
 // Styling
 import * as Styled from './styles'
