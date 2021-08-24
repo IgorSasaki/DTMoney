@@ -1,10 +1,19 @@
 // External Modules
-import React from 'react'
+import React, { useEffect } from 'react'
+
+// Services
+import API from '../../services'
 
 // Styling
 import * as Styled from './styles'
 
 export const TransactionsTable: React.FC = () => {
+  useEffect(() => {
+    API.get('http://localhost:3000/api/transactions').then(response =>
+      console.log(response.data)
+    )
+  }, [])
+
   return (
     <Styled.Container>
       <table>
