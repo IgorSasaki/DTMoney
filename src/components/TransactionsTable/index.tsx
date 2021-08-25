@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react'
 
 // Services
-import API from '../../services'
+import { API } from '../../services'
 
 // Styling
 import * as Styled from './styles'
